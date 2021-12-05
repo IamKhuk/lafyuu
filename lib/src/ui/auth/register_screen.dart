@@ -86,6 +86,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     child: TextField(
                       controller: userNameController,
                       autofocus: false,
+                      style: TextStyle(
+                        fontFamily: AppTheme.fontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 12,
+                        height: 1.8,
+                        color: AppTheme.grey,
+                      ),
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Full name',
@@ -136,6 +143,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     child: TextField(
                       controller: emailController,
                       autofocus: false,
+                      style: TextStyle(
+                        fontFamily: AppTheme.fontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 12,
+                        height: 1.8,
+                        color: AppTheme.grey,
+                      ),
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Your email',
@@ -188,11 +202,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       obscureText: onPasswordObscure,
                       style: TextStyle(
                         fontFamily: AppTheme.fontFamily,
+                        fontWeight: FontWeight.bold,
                         fontSize: 12,
                         height: 1.8,
-                        letterSpacing: 0.5,
                         color: AppTheme.grey,
-                        fontWeight: FontWeight.bold,
                       ),
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
@@ -256,6 +269,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     cursorColor: AppTheme.blue,
                     controller: passwordAgainController,
                     autofocus: false,
+                    style: TextStyle(
+                      fontFamily: AppTheme.fontFamily,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12,
+                      height: 1.8,
+                      color: AppTheme.grey,
+                    ),
                     obscureText: onPasswordAgainObscure,
                     decoration: InputDecoration(
                       border: InputBorder.none,
